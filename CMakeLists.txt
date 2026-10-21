@@ -12,6 +12,8 @@ target_include_directories(App PRIVATE
 
 target_sources(App PRIVATE
     main.cpp
+    board.cpp
+    tile.cpp
 )
 
 set_target_properties(App PROPERTIES
